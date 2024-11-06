@@ -1,0 +1,63 @@
+/* Flip Card Container */
+.flip-card-container {
+    perspective: 1000px;
+    height: 100%;
+
+    width: 100%;
+
+    text-align: center;
+  }
+  
+  .flip-card {
+    position: relative;
+
+    width: 70%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+  }
+  
+  /* Image Flip on Hover */
+  .flip-card-container:hover .flip-card {
+    transform: rotateX(-90deg); /* Flip the card upwards */
+  }
+  
+  .flip-card-image,
+  .flip-card-content {
+    position: absolute;
+
+    border: 5px solid #5f9ea0;
+    
+
+    padding: 10px;
+    width: 90%;
+    height: 40vh;
+    backface-visibility: hidden;
+    border-radius: 1.5rem;
+  }
+  
+  /* Image side */
+  .flip-card-image {
+    z-index: 2;
+    transform: rotateX(0deg); /* Default position */
+  }
+  
+  /* Content side */
+  .flip-card-content {
+    transform: rotateX(90deg); /* Initially hidden below the image */
+  }
+
+  /* Change pagination color to white */
+.swiper-pagination-bullet {
+    background-color: white; /* Set pagination dots to white */
+    opacity: 0.6; /* Adjust opacity if desired */
+  }
+  
+
+  .swiper-pagination-bullet-active {
+    background-color: white;
+    opacity: 1; 
+
+  }
+  
+  

@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #001321;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.MyGradient {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+
+@font-face {
+  font-family: "ilight";
+  src: local("ilight"), url("./assets/Inter_24pt-Light.ttf") format("truetype");
+  font-style: normal;
+  /* font-weight: normal; */
+  /* font-display: swap; */
+}
+@font-face {
+  font-family: "iregular";
+  src: local("iregular"),
+    url("./assets/Inter_24pt-Regular.ttf") format("truetype");
+  font-style: normal;
+  /* font-weight: normal; */
+  font-display: swap;
+}
+@font-face {
+  font-family: "ibold";
+  src: local("ibold"),
+    url("./assets/Inter_28pt-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  /* font-weight: normal; */
+  font-display: swap;
+}
+.ilight {
+  font-family: ilight;
+}
+.iregular {
+  font-family: iregular;
+}
+.ibold {
+  font-family: ibold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #001321;
+  color: white;
+  overflow-x: hidden;
+  font-family: iregular;
+}
+.headroom {
+  z-index: 50 !important;
+}
+.text-gradient {
+  background: linear-gradient(to right, #8afade, #7de3ca);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
