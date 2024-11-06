@@ -5,17 +5,17 @@ import Navbar from "./Component/Navbar";
 import Header from "./Homepage/Header";
 import About from "./Homepage/About";
 import Usecase from "./Homepage/Usecase";
-// import Roadmap from "./Homepage/Roadmap";
-// import Presale from "./Homepage/Presale";
+import Roadmap from "./Homepage/Roadmap";
+import Presale from "./Homepage/Presale";
 import Tokennomics from "./Homepage/Tokennomics";
-// import Footer from "./Component/Footer";
+import Footer from "./Component/Footer";
 import BgVideo from './video/Bgvideo';
 
 const App = () => {
   return (
     <Router>
       <>
-      <div className="relative w-full h-screen overflow-hidden">
+      <div className="relative w-full h-[100vh] overflow-hidden">
           <BgVideo />
           <div className="relative z-10">
             <Navbar />
@@ -26,9 +26,9 @@ const App = () => {
         <About />
         <Usecase />
         <Tokennomics />
-        {/* <Roadmap /> */}
-        {/* <Presale /> */}
-        {/* <Footer /> */}
+        <Roadmap />
+        <Presale />
+        <Footer />
       </>
     </Router>
   );

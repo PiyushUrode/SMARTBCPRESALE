@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <>
             <nav
-                className={` bg-[#001321]  w-full z-10 overflow-x-hidden   top-0 start-0 border-b border-none dark:border-gray-600`}>
+                className={`  w-full  overflow-x-hidden   top-0 start-0 border-b border-none dark:border-gray-600`}>
                 <div className=" relative max-w-full   flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
                     <a href="/" onClick={closeMenu}>
                         <div className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -51,15 +51,21 @@ const Navbar = () => {
 
                     <div className="flex  md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         
-                        <div className=' flex gap-3 phone:gap-1  items-center' >
-                            
-                            <a target="blank" href="https://smartbcconcept.net/MemberPanel/Login.aspx" className='rbtn h-fit rounded-full'>
-                                <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2 phone:text-sm ">Sign In</span>
-                            </a>
-                            <a target="blank" href="https://smartbcconcept.net/" className='rbtn h-fit rounded-full'>
-                                <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2  phone:text-sm ">Sign Up</span>
-                            </a>  
-                        </div>
+                    <div className='flex gap-3 phone:gap-1 items-center'>
+  <a 
+    target="_blank" 
+    href="https://smartbcconceepts-organization.gitbook.io/smart-bc-token/" 
+    className='rbtn h-fit rounded-full'
+  >
+    <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2 phone:text-sm hover:bg-[#8AFADE] md:hover:bg-[#8AFADE] hover:text-black transition-colors duration-300">
+      Whitepaper
+    </span>
+  </a>
+  {/* <a target="blank" href="https://smartbcconcept.net/" className='rbtn h-fit rounded-full'>
+    <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2 phone:text-sm ">Sign Up</span>
+  </a> */}
+</div>
+
 
                         <button
                             onClick={toggleNav}

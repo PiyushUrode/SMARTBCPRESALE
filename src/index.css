@@ -82,3 +82,25 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@layer utilities+ {
+  .gradient-border {
+    position: relative;
+    border: 2px solid transparent; /* Adjust the width as needed */
+    background-origin: border-box;
+    background-clip: border-box, padding-box;
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: inherit; /* Matches the border radius of the element */
+    padding: 5px; /* Matches the border width */
+    background: linear-gradient(90deg, rgba(136,250,222,1) 0%, rgba(0,0,0,1) 46%, rgba(136,250,222,1) 90%);
+  }
+}
+

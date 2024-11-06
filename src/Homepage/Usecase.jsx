@@ -1,5 +1,5 @@
 import React from 'react'
-import FlipSlider from './Flipslider'
+// import FlipSlider from './Flipslider'
 import usecase1 from "../Images/usecase/img1.svg"
 import usecase2 from "../Images/usecase/img-2.svg"
 import usecase3 from "../Images/usecase/img3.svg"
@@ -10,7 +10,7 @@ import usecase6 from "../Images/usecase/img6.svg"
 const Usecase = () => {
   return (
 <>
-<div className='flex flex-row tablet:flex-col justify-center py-16 p-2 phone:py-5   '>
+<div className='flex flex-row tablet:flex-col justify-center py-5 p-2 phone:py-5   '>
   <div className='flex flex-col w-full justify-center align-middle phone:w-full gap-10 phone:gap-4 py-5 px-5 '>
     <div className='flex flex-col gap-1 w-full justify-center align-middle  text-center '>
       <h1 className=' text-h1 phone:text-h3 ibold -tracking-normal w-[100%] leading-tight tablet:align-middle '>
@@ -32,7 +32,7 @@ const Usecase = () => {
   <FlipSlider/>
 </div> */}
 
-<div className="flex flex-col gap-5 px-4 md:px-10">
+<div className="flex flex-col gap-5 px-4 md:px-36">
   <div className="flex flex-row tablet:flex-col w-full gap-5">
     {/* Left side image */}
     <div className="flex tablet:w-full w-[30%]  justify-center items-center">

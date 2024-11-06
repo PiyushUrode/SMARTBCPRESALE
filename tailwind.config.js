@@ -19,6 +19,8 @@ export default {
 
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(136, 250, 222, 1) 90%)',
+        'gradient-border': 'linear-gradient(90deg, rgba(136,250,222,1) 0%, rgba(0,0,0,1) 46%, rgba(136,250,222,1) 90%)',
+
       },
 
       screens: {

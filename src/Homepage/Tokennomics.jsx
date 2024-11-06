@@ -27,21 +27,21 @@ const Tokennomics = () => {
       <div className='flex justify-center align-middle '> <img src={img1} alt="/" srcset="" /> </div>
 
 
-      <div className="flex flex-wrap justify-center gap-4 px-4  ">
+      <div className="flex flex-1  flex-wrap justify-center gap-4  px-4  ">
   {/* Button instances */}
-  <div className="w-[30%]  phone:w-full  tablet:w-full flex  justify-stretch align-middle               ">
+  <div className="w-[30%]  phone:w-56    tablet:flex-1 flex  justify-center               ">
     <Button3 leftText="TOKEN NAME" rightText="SMART BC" />
   </div>
-  <div className="w-[30%]  phone:w-full  tablet:w-full flex  justify-stretch align-middle              ">
+  <div className="w-[30%]  phone:w-56     tablet:flex-1 flex  justify-center              ">
     <Button3 leftText="SYMBOL" rightText="SMBC" />
   </div>
-  <div className="w-[30%]  phone:w-full  tablet:w-full flex  justify-stretch align-middle             ">
+  <div className="w-[30%]  phone:w-56    tablet:flex-1 flex  justify-center             ">
     <Button3 leftText="NETWORK" rightText="BEP-20" />
   </div>
-  <div className="w-[30%]  phone:w-full  tablet:w-full flex  justify-stretch align-middle             ">
+  <div className="w-[30%]  phone:w-56    tablet:flex-1 flex  justify-center             ">
     <Button3 leftText="DECIMAL" rightText="18" />
   </div>
-  <div className="w-[30%]  phone:w-full  tablet:w-full flex  justify-stretch align-middle             ">
+  <div className="w-[30%]  phone:w-56    tablet:flex-1 flex  justify-center             ">
     <Button3 leftText="TOTAL SUPPLY" rightText="15 CR" />
   </div>
 </div>

@@ -27,8 +27,8 @@ import arrow1 from "../Images/arrow.svg"
 const Header = () => {
   return (
     <>
-<div className='flex flex-row tablet:flex-col justify-center py-32 p-2 phone:py-5   '>
-  <div className='flex flex-col w-full justify-center align-middle phone:w-full gap-10 phone:gap-4 py-5 px-5 '>
+<div className='flex flex-row relative tablet:flex-col justify-center h-[95vh]    '>
+  <div className='flex flex-col w-full justify-center align-middle phone:w-full gap-10 phone:gap-4  px-5 '>
     <div className='flex flex-col gap-4 w-full justify-center align-middle  text-center '>
       <h1 className=' text-h1 phone:text-[28px] ibold -tracking-normal w-[100%] leading-tight tablet:align-middle '>
         Welcome to <span className='text-gradient'> SMART BC Token </span>
@@ -44,14 +44,18 @@ const Header = () => {
     </div>
     <div className='flex flex-row phone:flex-col phone:gap-5 gap-10 w-full phone:px-10 px-5 py-2  justify-center align-middle  text-center  '>
       <button className="text-h3 font-h2  border-customTeal rounded-2xl text-white px-4 py-2 border-2 border-solid hover:bg-customTealhover hover:text-black">
-        Whitepaper
+       
+        <a target="blank" href="https://smartbcconceepts-organization.gitbook.io/smart-bc-token/" className='rbtn h-fit rounded-full'>
+                                <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2 phone:text-sm ">Whitepaper</span>
+                            </a>
       </button>
-      <button className='text-h3 font-h2 flex flex-row text-white px-4 py-2 align-middle justify-center  gap-5'> 
-<h1 className='border-b-2 border-white'>Join the presale</h1>
-<img src={arrow1} alt="" className='mt-2' />
-         </button>
+
     </div>
   </div>
+
+  <div className="overflow-x-hidden absolute bottom-10 tablet:bottom-3 phone:bottom-0  whitespace-nowrap  bg-custom-gradient">
+      <Marquee />
+    </div>
 
 </div>
 
@@ -76,9 +80,7 @@ const Header = () => {
   </div> */}
 
   {/* <div className="container mx-auto w-full  text-white flex justify-around items-center overflow-x-hidden"> */}
-  <div className="overflow-x-hidden whitespace-nowrap  bg-custom-gradient">
-      <Marquee />
-    </div>
+ 
 </>
 
 
