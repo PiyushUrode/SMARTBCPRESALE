@@ -1,7 +1,7 @@
 import React from 'react'
 // import FlipSlider from './Flipslider'
 import usecase1 from "../Images/usecase/img1.svg"
-import usecase2 from "../Images/usecase/img-2.svg"
+import usecase2 from "../Images/usecase/img2.svg"
 import usecase3 from "../Images/usecase/img3.svg"
 import usecase4 from "../Images/usecase/img4.svg"
 import usecase5 from "../Images/usecase/img5.svg"
