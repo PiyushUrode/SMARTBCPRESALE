@@ -10,24 +10,24 @@ const Tokennomics = () => {
       <div className='flex flex-row tablet:flex-col justify-center py-16 p-2 phone:py-5   '>
   <div className='flex flex-col w-full justify-center align-middle phone:w-full gap-10 phone:gap-4 py-5 px-5 '>
     <div className='flex flex-col gap-1 w-full justify-center align-middle  text-center '>
-      <h1 className=' text-h1 phone:text-h3 ibold -tracking-normal w-[100%] leading-tight tablet:align-middle '>
-        Tokenomics  <span className='text-gradient'> Case </span>
+      <h1 className=' text-h1 phone:text-h2 ibold -tracking-normal w-[100%] leading-tight tablet:align-middle '>
+        Tokenomics  <span className='text-gradient'>  </span>
       </h1>
 
     </div>
     <div className='w-full justify-center align-middle  text-center flex '>
     <p className='text-p font-p w-[50%] phone:w-full px-5 py-2 phone:py-1  '>
-    SMART BC Token (SMBC) is a BEP-20 token fueling staking, e-commerce, NFTs, and metaverse applications, with plans for its own Blitz Blockchain. Join SMBC to earn, trade, and thrive in a transparent, scalable blockchain ecosystem.
+    SMART BC Token (SBC) is a BEP-20 token fueling staking, e-commerce, NFTs, and metaverse applications, with plans for its own Blitz Blockchain. Join SBC to earn, trade, and thrive in a transparent, scalable blockchain ecosystem.
     </p>
     </div>
 
   </div>
 
 </div>
-      <div className='flex justify-center align-middle '> <img src={img1} alt="/" srcset="" /> </div>
+      <div className='flex justify-center align-middle px-5 '> <img src={img1} alt="/" srcset="" /> </div>
 
 
-      <div className="flex flex-1  flex-wrap justify-center gap-4  px-4  ">
+      <div className="flex flex-1  flex-wrap justify-center gap-4 tablet:gap-1 px-4 tablet:px-1   ">
   {/* Button instances */}
   <div className="w-[30%]  phone:w-56    tablet:flex-1 flex  justify-center               ">
     <Button3 leftText="TOKEN NAME" rightText="SMART BC" />

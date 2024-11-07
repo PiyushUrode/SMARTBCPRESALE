@@ -7,9 +7,9 @@ const BgVideo = () => {
       autoPlay
       loop
       muted
-      width="600" height="fit"  controls
+      width="600" height="fit"  
       style={{ opacity: 1 } }
-      className="absolute top-0 left-0 w-full h-full object-cover  "
+      className="absolute top-0 left-0 w-full h-full object-cover    "
     
     >
       <source src={videoSource} type="video/mp4" />

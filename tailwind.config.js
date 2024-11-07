@@ -33,8 +33,12 @@ export default {
       fontSize: {
         'h1': '3.5rem', // Adjust as needed
         'h2': '2.5rem',
-        'h3': '1.4rem',
-        'p': '1.4rem',
+        'h3': '2rem',
+        'h4': '1.5rem',
+        'h5': '1rem',
+        'p1': '1.4rem',
+        'p2': '1.0rem',
+        'p3': '0.8rem',
       },
       fontWeight: {
         'h1': '800',

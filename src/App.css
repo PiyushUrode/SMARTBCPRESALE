@@ -1,4 +1,7 @@
 #root {
+  --navbar-background: transparent;
+  background-color: var(--navbar-background);
+  transition: background-color 0.3s ease; /* Smooth transition */
 
   margin: 0 auto;
  

@@ -40,7 +40,7 @@ const Navbar = () => {
 
         <>
             <nav
-                className={`  w-full  overflow-x-hidden   top-0 start-0 border-b border-none dark:border-gray-600`}>
+                className={`  w-full  overflow-x-hidden bg-[#1dd2d514]  top-0 start-0 border-b border-none dark:border-gray-600`}>
                 <div className=" relative max-w-full   flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
                     <a href="/" onClick={closeMenu}>
                         <div className="flex items-center space-x-3 rtl:space-x-reverse">
