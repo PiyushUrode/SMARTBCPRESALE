@@ -1,8 +1,8 @@
 import logo from "../Images/logo.png"
-import logo1 from "../Images/headericon/Logo-01.svg"
-import logo2 from "../Images/headericon/Logo-02.svg"
-import logo3 from "../Images/headericon/Logo-03.svg"
-import logo4 from "../Images/headericon/Logo-04.svg"
+import Insta from "../Images/headericon/Logo-01.svg"
+import Facebook from "../Images/headericon/Logo-02.svg"
+import X from "../Images/headericon/Logo-03.svg"
+import Telegram from "../Images/headericon/Logo-04.svg"
 
 
 const Footer = () => {
@@ -56,20 +56,20 @@ const Footer = () => {
                                 <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">Important</h2>
                                 <ul className="text-gray-400 font-medium">
   <li className="mb-4 flex items-center gap-2 tablet:text-center">
-    <img src={logo1} alt="Terms & Conditions" className="w-6 h-6" />
+    <img src={Insta} alt="Terms & Conditions" className="w-6 h-6" />
     <span> Instagram </span>
   </li>
   <li className="flex items-center gap-2 tablet:text-center">
-    <img src={logo2} alt="Privacy Policy" className="w-6 h-6" />
+    <img src={Facebook} alt="Privacy Policy" className="w-6 h-6" />
     <span>Facebook</span>
   </li>
   <li className="flex items-center gap-2 tablet:text-center">
-    <img src={logo3} alt="Privacy Policy" className="w-6 h-6" />
+    <img src={X} alt="Privacy Policy" className="w-6 h-6" />
     <span>X</span>
   </li>
 
   <li className="flex items-center gap-2 tablet:text-center">
-    <img src={logo4} alt="Privacy Policy" className="w-6 h-6" />
+    <img src={Telegram} alt="Privacy Policy" className="w-6 h-6" />
     <span>Telegram</span>
   </li>
 

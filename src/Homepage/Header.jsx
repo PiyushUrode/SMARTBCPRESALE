@@ -39,7 +39,7 @@ const Header = () => {
     </div>
     <div className='w-full justify-center   align-middle  text-center phone:text-center flex '>
     <p className=' w-[50%] tablet:w-[80%] phone:w-full phone:px-1   px-5 py-2 phone:py-1  '>
-    SMART BC Token (SMBC) is a BEP-20 token fueling staking, e-commerce, NFTs, and metaverse applications, with plans for its own Blitz Blockchain. Join SMBC to earn, trade, and thrive in a transparent, scalable blockchain ecosystem.
+    SMART BC Token (SBC) is a BEP-20 token fueling staking, e-commerce, NFTs, and metaverse applications, with plans for its own Blitz Blockchain. Join SMBC to earn, trade, and thrive in a transparent, scalable blockchain ecosystem.
     </p>
     </div>
     <div className='flex flex-row phone:flex-col phone:gap-5 gap-10 w-full phone:px-10 px-5 py-2  justify-center align-middle  text-center  '>

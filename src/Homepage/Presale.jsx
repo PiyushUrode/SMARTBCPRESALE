@@ -11,7 +11,7 @@ const Presale = () => {
 
   return (
     <div className="flex flex-col text-center gap-5 align-middle justify-center w-full px-5 py-20">
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-normal w-full leading-tight">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl py-5 font-bold tracking-normal w-full leading-tight">
         Contract <span className="text-gradient">Address</span>
       </h1>
       <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-normal w-full leading-tight">

@@ -1,5 +1,6 @@
 import React from 'react';
 import aboutimg1 from "../Images/aboutimg.png";
+import arrow1 from "../Images/arrow.svg"
 
 const About = () => {
   return (
@@ -29,10 +30,10 @@ const About = () => {
 
         {/* Button */}
         <div className='flex flex-col space-y-2'>
-          <button className="text-lg font-semibold text-white">
-            More
-          </button>
-          <div className='border-t-2 border-solid w-10 mt-1'></div>
+       
+          <button class="text-h3 font-h2 flex flex-row text-white px-4 py-2 align-middle justify-center  gap-2  "><h1 class="border-b-2 border-slate-400 ">More</h1><img src={arrow1} alt="" class="mt-2"/></button>
+
+
         </div>
       </div>
     </div>

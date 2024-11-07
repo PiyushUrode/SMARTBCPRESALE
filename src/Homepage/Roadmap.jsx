@@ -47,25 +47,25 @@ const Roadmap = () => {
                                     <div className="h-fit flex flex-col gap-5 rounded-xl roadmap-shadow tracking-wider border-2 p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]">
                                         <p className="leading-6 font-bold text-xl 2xl:text-[1.3vw]">Phase 1: Pre-Launch (2024) </p>
                                         <div className="flex gap-2">
-        <p className="font-bold">✧</p>
-        <p className="2xl:text-[1.12vw]">Conduct market research and finalize the tokenomics structure.</p>
-      </div>
-      <div className="flex gap-2">
-        <p className="font-bold">✧</p>
-        <p className="2xl:text-[1.12vw]">Develop and test the Smart BC Token on the BEP-20 network.</p>
-      </div>
-      <div className="flex gap-2">
-        <p className="font-bold">✧</p>
-        <p className="2xl:text-[1.12vw]">Build a dedicated project website and establish a social media presence.</p>
-      </div>
-      <div className="flex gap-2">
-        <p className="font-bold">✧</p>
-        <p className="2xl:text-[1.12vw]">Assemble the core team and advisors.</p>
-      </div>
-      <div className="flex gap-2">
-        <p className="font-bold">✧</p>
-        <p className="2xl:text-[1.12vw]">Conduct community outreach to generate interest and gather feedback.</p>
-      </div>
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Conduct market research and finalize the tokenomics structure.</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Develop and test the Smart BC Token on the BEP-20 network.</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Build a dedicated project website and establish a social media presence.</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Assemble the core team and advisors.</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Conduct community outreach to generate interest and gather feedback.</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="relative col-start-5 col-end-6 mr-3 md:mx-auto">
@@ -97,32 +97,32 @@ const Roadmap = () => {
                                 </div>
                                 <div className="Sregular h-fit max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
                                     <div style={{
-    background: "linear-gradient(150deg, rgb(0, 0, 0) 0%, rgb(0 0 0) 7%, rgb(98, 196, 177) 25%, rgb(102, 189, 168) 29%, rgb(26, 49, 42) 94%, rgb(23, 41, 35) 100%)"
-  }} className="h-fit w-fit text-4xl px-4 py-5 rounded-e-full tablet:rounded-t-full bg-gradient-to-tr    ml-[1px] my-3 2xl:text-[2.3vw] 2xl:my-[1vw] 2xl:py-[1.4vw] 2xl:px-[1.2vw]">
+                                        background: "linear-gradient(150deg, rgb(0, 0, 0) 0%, rgb(0 0 0) 7%, rgb(98, 196, 177) 25%, rgb(102, 189, 168) 29%, rgb(26, 49, 42) 94%, rgb(23, 41, 35) 100%)"
+                                    }} className="h-fit w-fit text-4xl px-4 py-5 rounded-e-full tablet:rounded-t-full bg-gradient-to-tr    ml-[1px] my-3 2xl:text-[2.3vw] 2xl:my-[1vw] 2xl:py-[1.4vw] 2xl:px-[1.2vw]">
                                         02
                                     </div>
                                     <div className="flex flex-col gap-5 rounded-xl roadmap-shadow border-2 tracking-wider p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]">
                                         <p className="leading-6 font-bold text-xl 2xl:text-[1.3vw]">Phase 2: Token Launch (2024)</p>
                                         <div className="flex gap-2">
-  <p className="font-bold">✧</p>
-  <p className="2xl:text-[1.12vw]">Officially launch the Smart BC Token (SBC).</p>
-</div>
-<div className="flex gap-2">
-  <p className="font-bold">✧</p>
-  <p className="2xl:text-[1.12vw]">Initiate the public sale of SBC tokens (40% allocation).</p>
-</div>
-<div className="flex gap-2">
-  <p className="font-bold">✧</p>
-  <p className="2xl:text-[1.12vw]">Launch marketing campaigns to raise awareness and attract investors.</p>
-</div>
-<div className="flex gap-2">
-  <p className="font-bold">✧</p>
-  <p className="2xl:text-[1.12vw]">List SBC on select cryptocurrency exchanges for trading.</p>
-</div>
-<div className="flex gap-2">
-  <p className="font-bold">✧</p>
-  <p className="2xl:text-[1.12vw]">Begin building partnerships within the blockchain and crypto space.</p>
-</div>
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Officially launch the Smart BC Token (SBC).</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Initiate the public sale of SBC tokens (40% allocation).</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Launch marketing campaigns to raise awareness and attract investors.</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">List SBC on select cryptocurrency exchanges for trading.</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Begin building partnerships within the blockchain and crypto space.</p>
+                                        </div>
 
                                     </div>
                                 </div>
@@ -132,28 +132,28 @@ const Roadmap = () => {
                             <div className="flex md:contents flex-row-reverse">
                                 <div className="h-fit relative flex tablet:flex-col max-w-[35rem] my-10 tablet:my-5 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
                                     <div style={{
-    background: "linear-gradient(150deg, rgb(0, 0, 0) 0%, rgb(0 0 0) 7%, rgb(98, 196, 177) 25%, rgb(102, 189, 168) 29%, rgb(26, 49, 42) 94%, rgb(23, 41, 35) 100%)"
-  }} className="h-fit w-fit text-4xl px-4 py-5 rounded-s-full tablet:rounded-t-full bg-gradient-to-bl  my-3 2xl:text-[2.3vw] 2xl:my-[1vw] 2xl:py-[1.4vw] 2xl:px-[1.2vw]">03</div>
+                                        background: "linear-gradient(150deg, rgb(0, 0, 0) 0%, rgb(0 0 0) 7%, rgb(98, 196, 177) 25%, rgb(102, 189, 168) 29%, rgb(26, 49, 42) 94%, rgb(23, 41, 35) 100%)"
+                                    }} className="h-fit w-fit text-4xl px-4 py-5 rounded-s-full tablet:rounded-t-full bg-gradient-to-bl  my-3 2xl:text-[2.3vw] 2xl:my-[1vw] 2xl:py-[1.4vw] 2xl:px-[1.2vw]">03</div>
                                     <div className="Sregular h-fit flex flex-col gap-5 rounded-xl roadmap-shadow tracking-wider border-2 p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]">
                                         <p className="leading-6 font-bold text-xl 2xl:text-[1.3vw]">Phase 3: Ecosystem Development (2024) </p>
                                         <div className="flex flex-col gap-4">
-      <div className="flex gap-2">
-        <p className="font-bold">✧</p>
-        <p className="2xl:text-[1.12vw]">Launch staking platform, allowing users to earn rewards by staking SBC tokens.</p>
-      </div>
-      <div className="flex gap-2">
-        <p className="font-bold">✧</p>
-        <p className="2xl:text-[1.12vw]">Develop and launch the NFT marketplace for creating and trading digital assets.</p>
-      </div>
-      <div className="flex gap-2">
-        <p className="font-bold">✧</p>
-        <p className="2xl:text-[1.12vw]">Initiate community governance features to involve users in decision-making processes.</p>
-      </div>
-      <div className="flex gap-2">
-        <p className="font-bold">✧</p>
-        <p className="2xl:text-[1.12vw]">Enhance the SBC community through engagement initiatives and educational content.</p>
-      </div>
-    </div>
+                                            <div className="flex gap-2">
+                                                <p className="font-bold">✧</p>
+                                                <p className="2xl:text-[1.12vw]">Launch staking platform, allowing users to earn rewards by staking SBC tokens.</p>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <p className="font-bold">✧</p>
+                                                <p className="2xl:text-[1.12vw]">Develop and launch the NFT marketplace for creating and trading digital assets.</p>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <p className="font-bold">✧</p>
+                                                <p className="2xl:text-[1.12vw]">Initiate community governance features to involve users in decision-making processes.</p>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <p className="font-bold">✧</p>
+                                                <p className="2xl:text-[1.12vw]">Enhance the SBC community through engagement initiatives and educational content.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="relative col-start-5 col-end-6 mr-3 md:mx-auto">
@@ -185,32 +185,32 @@ const Roadmap = () => {
                                 </div>
                                 <div className="Sregular h-fit max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
                                     <div style={{
-    background: "linear-gradient(150deg, rgb(0, 0, 0) 0%, rgb(0 0 0) 7%, rgb(98, 196, 177) 25%, rgb(102, 189, 168) 29%, rgb(26, 49, 42) 94%, rgb(23, 41, 35) 100%)"
-  }} className="h-fit w-fit text-4xl px-4 py-5 rounded-e-full tablet:rounded-t-full bg-gradient-to-tr    ml-[1px] my-3 2xl:text-[2.3vw] 2xl:my-[1vw] 2xl:py-[1.4vw] 2xl:px-[1.2vw]">
-                                        02
+                                        background: "linear-gradient(150deg, rgb(0, 0, 0) 0%, rgb(0 0 0) 7%, rgb(98, 196, 177) 25%, rgb(102, 189, 168) 29%, rgb(26, 49, 42) 94%, rgb(23, 41, 35) 100%)"
+                                    }} className="h-fit w-fit text-4xl px-4 py-5 rounded-e-full tablet:rounded-t-full bg-gradient-to-tr    ml-[1px] my-3 2xl:text-[2.3vw] 2xl:my-[1vw] 2xl:py-[1.4vw] 2xl:px-[1.2vw]">
+                                        04
                                     </div>
                                     <div className="flex flex-col gap-5 rounded-xl roadmap-shadow border-2 tracking-wider p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]">
                                         <p className="leading-6 font-bold text-xl 2xl:text-[1.3vw]">Phase 4: Expansion and Utility (2024) </p>
                                         <div className="flex gap-2">
-  <p className="font-bold">✧</p>
-  <p className="2xl:text-[1.12vw]">Officially launch the Smart BC Token (SBC).</p>
-</div>
-<div className="flex gap-2">
-  <p className="font-bold">✧</p>
-  <p className="2xl:text-[1.12vw]">Initiate the public sale of SBC tokens (40% allocation).</p>
-</div>
-<div className="flex gap-2">
-  <p className="font-bold">✧</p>
-  <p className="2xl:text-[1.12vw]">Launch marketing campaigns to raise awareness and attract investors.</p>
-</div>
-<div className="flex gap-2">
-  <p className="font-bold">✧</p>
-  <p className="2xl:text-[1.12vw]">List SBC on select cryptocurrency exchanges for trading.</p>
-</div>
-<div className="flex gap-2">
-  <p className="font-bold">✧</p>
-  <p className="2xl:text-[1.12vw]">Begin building partnerships within the blockchain and crypto space.</p>
-</div>
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Officially launch the Smart BC Token (SBC).</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Initiate the public sale of SBC tokens (40% allocation).</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Launch marketing campaigns to raise awareness and attract investors.</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">List SBC on select cryptocurrency exchanges for trading.</p>
+                                        </div>
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">Begin building partnerships within the blockchain and crypto space.</p>
+                                        </div>
 
                                     </div>
                                 </div>
@@ -219,8 +219,8 @@ const Roadmap = () => {
                             <div className="flex md:contents flex-row-reverse">
                                 <div className="h-fit relative flex tablet:flex-col max-w-[35rem] my-10 tablet:my-5 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
                                     <div style={{
-    background: "linear-gradient(150deg, rgb(0, 0, 0) 0%, rgb(0 0 0) 7%, rgb(98, 196, 177) 25%, rgb(102, 189, 168) 29%, rgb(26, 49, 42) 94%, rgb(23, 41, 35) 100%)"
-  }} className="h-fit w-fit text-4xl px-4 py-5 rounded-s-full tablet:rounded-t-full bg-gradient-to-bl  my-3 2xl:text-[2.3vw] 2xl:my-[1vw] 2xl:py-[1.4vw] 2xl:px-[1.2vw]">03</div>
+                                        background: "linear-gradient(150deg, rgb(0, 0, 0) 0%, rgb(0 0 0) 7%, rgb(98, 196, 177) 25%, rgb(102, 189, 168) 29%, rgb(26, 49, 42) 94%, rgb(23, 41, 35) 100%)"
+                                    }} className="h-fit w-fit text-4xl px-4 py-5 rounded-s-full tablet:rounded-t-full bg-gradient-to-bl  my-3 2xl:text-[2.3vw] 2xl:my-[1vw] 2xl:py-[1.4vw] 2xl:px-[1.2vw]">05</div>
                                     <div className="Sregular h-fit flex flex-col gap-5 rounded-xl roadmap-shadow tracking-wider border-2 p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]">
                                         <p className="leading-6 font-bold text-xl 2xl:text-[1.3vw]">Phase 5: Own Blockchain Development (2025)</p>
                                         <div className="flex gap-2">
@@ -245,7 +245,7 @@ const Roadmap = () => {
                                 </div>
                             </div>
                             {/* sixth */}
-                            {/* <div className="flex md:contents">
+                            <div className="flex md:contents">
                                 <div className="tablet:hidden relative flex my-10 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal">
                                     <img alt="" />
                                 </div>
@@ -263,35 +263,43 @@ const Roadmap = () => {
                                     <div style={{
     background: "linear-gradient(150deg, rgb(0, 0, 0) 0%, rgb(0 0 0) 7%, rgb(98, 196, 177) 25%, rgb(102, 189, 168) 29%, rgb(26, 49, 42) 94%, rgb(23, 41, 35) 100%)"
   }} className="h-fit w-fit text-4xl px-4 py-5 rounded-e-full tablet:rounded-t-full bg-gradient-to-tr    ml-[1px] my-3 2xl:text-[2.3vw] 2xl:my-[1vw] 2xl:py-[1.4vw] 2xl:px-[1.2vw]">
-                                        02
+                                        06
                                     </div>
                                     <div className="flex flex-col gap-5 rounded-xl roadmap-shadow border-2 tracking-wider p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]">
                                         <p className="leading-6 font-bold text-xl 2xl:text-[1.3vw]">Phase 6: Long-term Growth and Sustainability
                                         (2026+) </p>
                                         <div className="flex gap-2">
                                             <p className="font-bold">✧</p>
-                                            <div>
-                                                <span className="Sbold">SEED SELL :</span>
-                                                <span className="2xl:text-[1.12vw]">(For 10 Days) Exclusive early investor token sale at discounted rates offered.</span>
-                                            </div>
+                                            <p className="2xl:text-[1.12vw]">
+                                            Continuously improve and upgrade the SBC ecosystem based on user feedback and market trends.
+
+
+</p>
                                         </div>
+
                                         <div className="flex gap-2">
                                             <p className="font-bold">✧</p>
-                                            <div>
-                                                <span className="Sbold">SEED SELL :</span>
-                                                <span className="2xl:text-[1.12vw]">(For 10 Days) Accredited investors and institutions purchase tokens at preferred pricing.</span>
-                                            </div>
+                                            <p className="2xl:text-[1.12vw]">
+                                            Explore collaborations with other blockchain projects and enterprises to enhance utility.</p>
                                         </div>
+
+
                                         <div className="flex gap-2">
                                             <p className="font-bold">✧</p>
-                                            <div>
-                                                <span className="Sbold">SEED SELL :</span>
-                                                <span className="2xl:text-[1.12vw]">(For 10 Days) Open token sale to the general public at listed market price.</span>
-                                            </div>
+                                            <p className="2xl:text-[1.12vw]">
+                                            Implement long-term sustainability practices to maintain the value of SBC.</p>
+                                        </div>
+
+
+
+                                        <div className="flex gap-2">
+                                            <p className="font-bold">✧</p>
+                                            <p className="2xl:text-[1.12vw]">
+                                            Expand community outreach and educational initiatives to onboard new users into the ecosystem.</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

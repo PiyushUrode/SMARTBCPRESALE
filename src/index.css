@@ -73,7 +73,9 @@ body {
   color: white;
   overflow-x: hidden;
   font-family: iregular;
+  
 }
+
 .headroom {
   z-index: 50 !important;
 }
