@@ -18,7 +18,7 @@ const MarqueeItem = () => {
         initial={{ x: 0 }}
         animate={{ x: -1000 }} // Adjust this based on the total width of images
         transition={{
-          duration: 50,
+          duration: 20,
           repeat: Infinity,
           ease: "linear",
         }}

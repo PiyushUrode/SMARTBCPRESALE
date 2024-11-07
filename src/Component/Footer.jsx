@@ -10,10 +10,10 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="bg-[#101010] z-10 rounded-t-2xl">
+            <footer className="bg-[#101010] z-10 rounded-t-3xl">
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 z-10">
                     <div className="md:flex md:justify-between tablet:justify-center z-10">
-                        <div className="flex flex-col gap-5 mb-6 max-w-[40%] tablet:max-w-[100%] tablet:items-center md:mb-0">
+                        <div className="flex flex-col gap-5 mb-6 max-w-[35%] tablet:max-w-[100%] tablet:items-center md:mb-0">
                             <a href="" className="flex items-center">
                                 <img src={logo} className="h-[50px] me-3" alt="FlowBite Logo" />
                             </a>
@@ -29,10 +29,23 @@ const Footer = () => {
                             <div className="flex flex-col tablet:items-center">
                                 <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">Important Link</h2>
                                 <ul className="text-gray-400 font-medium">
-                                    <li className="mb-4 tablet:text-center">About Us</li>
-                                    <li className="tablet:text-center">White Paper</li>
-                                    <li className="tablet:text-center">Roadmap</li>
-                                    <li className="tablet:text-center">Tokenomics</li>
+                                <ul className="gap-4 flex flex-col">
+    <li className=" tablet:text-center">
+        <a href="#about">About Us</a>
+    </li>
+    <li className="tablet:text-center">
+        <a href="https://smartbcconceepts-organization.gitbook.io/smart-bc-token/">White Paper</a>
+    </li>
+    <li className="tablet:text-center">
+        <a href="#roadmap">Roadmap</a>
+    </li>
+    <li className="tablet:text-center">
+        <a href="#token">Tokenomics</a>
+    </li>
+    
+    
+</ul>
+
                                 </ul>
                             </div>
 
@@ -54,8 +67,8 @@ const Footer = () => {
 
                             <div className="flex flex-col tablet:items-center">
                                 <h2 className="text-primary-gradient mb-6 text-sm font-semibold uppercase text-white">Important</h2>
-                                <ul className="text-gray-400 font-medium">
-  <li className="mb-4 flex items-center gap-2 tablet:text-center">
+                                <ul className="text-gray-400 font-medium gap-4 flex flex-col">
+  <li className=" flex items-center gap-2 tablet:text-center">
     <img src={Insta} alt="Terms & Conditions" className="w-6 h-6" />
     <span> Instagram </span>
   </li>

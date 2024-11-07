@@ -27,7 +27,7 @@ import arrow1 from "../Images/arrow.svg"
 const Header = () => {
   return (
     <>
-<div className='flex flex-row relative tablet:flex-col justify-center h-[95vh]    '>
+<div className='flex flex-row relative tablet:flex-col justify-center h-[95vh]    ' id='home'  >
   <div className='flex flex-col w-full justify-center align-middle phone:w-full gap-10 phone:gap-4  px-5 '>
     <div className='flex flex-col gap-4 w-full justify-center align-middle  text-center '>
       <h1 className=' text-h1 phone:text-[28px] ibold -tracking-normal w-[100%] leading-tight tablet:align-middle '>

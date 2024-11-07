@@ -19,11 +19,11 @@ const Button3 = ({ leftText, rightText }) => {
         </div>
       </button> */}
       <button className="relative px-3 py-3 phone:px-1 phone:py-1  text-base cursor-pointer 
-         flex items-center text-white w-[300px] h-[60px] transition-all duration-300 ease-in-out hover:rounded-full hover:shadow-[0_0_15px_rgba(0,255,192,0.8),inset_0_0_15px_15px_rgba(0,255,192,0.5)]">
+         flex items-center text-black w-[300px] h-[60px] transition-all duration-300 ease-in-out hover:rounded-full hover:shadow-[0_0_15px_rgba(0,255,192,0.8),inset_0_0_15px_15px_rgba(0,255,192,0.5)]">
   
   {/* Left side with gradient */}
-  <div className="w-1/2 h-full bg-gradient-to-r from-[#00ffbf92] to-[#c2e59c] border-2 border-[#00ffbf92] flex items-center justify-center rounded-l-full">
-    <span className="text-white z-10">{leftText}</span>
+  <div className="w-1/2 h-full bg-gradient-to-r from-[#88fade] to-[#88faddae] border-2 border-[#00fff736]  flex items-center justify-center rounded-l-full">
+    <span className="text-black z-10">{leftText}</span>
   </div>
   
   {/* Right side with dark background */}

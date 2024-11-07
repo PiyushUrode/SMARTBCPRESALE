@@ -6,7 +6,7 @@ import img1 from "../Images/token.svg"
 
 const Tokennomics = () => {
   return (
-    <div className='flex flex-col align-middle justify-center text-center'>
+    <div className='flex flex-col align-middle justify-center text-center' id='token'>
       <div className='flex flex-row tablet:flex-col justify-center py-16 p-2 phone:py-5   '>
   <div className='flex flex-col w-full justify-center align-middle phone:w-full gap-10 phone:gap-4 py-5 px-5 '>
     <div className='flex flex-col gap-1 w-full justify-center align-middle  text-center '>
@@ -33,7 +33,7 @@ const Tokennomics = () => {
     <Button3 leftText="TOKEN NAME" rightText="SMART BC" />
   </div>
   <div className="w-[30%]  phone:w-56     tablet:flex-1 flex  justify-center              ">
-    <Button3 leftText="SYMBOL" rightText="SMBC" />
+    <Button3 leftText="SYMBOL" rightText="SBC" />
   </div>
   <div className="w-[30%]  phone:w-56    tablet:flex-1 flex  justify-center             ">
     <Button3 leftText="NETWORK" rightText="BEP-20" />
@@ -42,7 +42,7 @@ const Tokennomics = () => {
     <Button3 leftText="DECIMAL" rightText="18" />
   </div>
   <div className="w-[30%]  phone:w-56    tablet:flex-1 flex  justify-center             ">
-    <Button3 leftText="TOTAL SUPPLY" rightText="15 CR" />
+    <Button3 leftText="TOTAL SUPPLY" rightText="10 CR" />
   </div>
 </div>
 

@@ -29,7 +29,7 @@ const Roadmap = () => {
 
 
             {/* copy */}
-            <section id="Roadmap">
+            <section id="roadmap">
                 <div
                     id="about-main"
                     className="bg-[url('/bgimgblackwave.svg')] bg-opacity-[0.8] relative flex gap-16 flex-col min-h-[100vh] px-10 py-10 tablet:px-3 2xl:py-[3vw] 2xl:px-[3vw] 2xl:gap-[4vw]"

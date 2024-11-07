@@ -4,7 +4,7 @@ import arrow1 from "../Images/arrow.svg"
 
 const About = () => {
   return (
-    <div className='flex flex-col md:flex-row justify-center align-middle min-h-[90vh] py-4 px-20 tablet:py-10 tablet:px-2'>
+    <div className='flex flex-col md:flex-row justify-center align-middle min-h-[90vh] py-4 px-20 tablet:py-10 tablet:px-2' id='about'>
       {/* Image Section */}
       <div className='flex justify-center w-full md:w-1/2 px-4 md:px-8'>
         <img src={aboutimg1} alt="About Image" className='w-full max-w-2xl h-auto' />

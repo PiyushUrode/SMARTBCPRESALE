@@ -29,6 +29,8 @@ const App = () => {
         <Roadmap />
         <Presale />
         <Footer />
+
+        
       </>
     </Router>
   );

@@ -10,7 +10,7 @@ const Presale = () => {
   };
 
   return (
-    <div className="flex flex-col text-center gap-5 align-middle justify-center w-full px-5 py-20">
+    <div className="flex flex-col text-center gap-5 align-middle justify-center w-full px-5 py-20" id='contract' >
       <h1 className="text-4xl sm:text-5xl md:text-6xl py-5 font-bold tracking-normal w-full leading-tight">
         Contract <span className="text-gradient">Address</span>
       </h1>

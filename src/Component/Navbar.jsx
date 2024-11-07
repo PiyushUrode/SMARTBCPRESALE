@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 // import logo from "../assets/logo/logo2.png"
-import { Link } from 'react-router-dom';
+
+import { HashLink as Link } from 'react-router-hash-link';
 import logo from "../Images/logo.png"
 // import logo from "../assets/voip_logo (1)/voip_logo.webp"
 // import { Link } from "react-router-dom"
@@ -104,14 +105,14 @@ const Navbar = () => {
                         <ul className="   navcar  flex    flex-col p-4   md:py-1.5   mt-4 font-medium border border-[--primary-color]  md:rounded-[50px] rounded-lg   md:space-x-[3vmax] rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   text-white tablet:bg-gray-900    ">
 
                             <li className='md:border-none border-b-[1px]  border-gradient '>
-                                <Link to="/" onClick={closeMenu}>
+                                <Link to="/#home" onClick={closeMenu}>
                                     <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0  dark:border-gray-700 hover:text-[#8AFADE] font-outfit   ">Home</div>
                                 </Link>
                             </li>
 
                             <li className='md:border-none border-b-[1px] border-gradient '>
-                                <Link to="/?=Service" onClick={closeMenu}  >
-                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Service</div>
+                                <Link to="/#about" onClick={closeMenu}  >
+                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">About</div>
                                 </Link>
                             </li>
                             {/* <li className='md:border-none border-b-[1px] border-gradient '>
@@ -120,18 +121,18 @@ const Navbar = () => {
                                 </a>
                             </li> */}
                             <li className='md:border-none border-b-[1px] border-gradient '>
-                                <Link to="/?=FAQ" onClick={closeMenu}>
-                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">FAQ</div>
+                                <Link to="/#usecase" onClick={closeMenu}>
+                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">UseCase</div>
                                 </Link>
                             </li>
                             <li className='md:border-none border-b-[1px] border-gradient '>
-                                <Link to="/?=How_it_works" onClick={closeMenu}>
-                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">How it works</div>
+                                <Link to="/#token" onClick={closeMenu}>
+                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Tokenomics</div>
                                 </Link>
                             </li>
                             <li className='md:border-none border-b-[1px] border-gradient '>
-                                <Link to="/?=Contact" onClick={closeMenu}>
-                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Contact</div>
+                                <Link to="/#roadmap" onClick={closeMenu}>
+                                    <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Roadmap</div>
                                 </Link>
                             </li>
 
