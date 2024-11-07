@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // Import images directly
-import Logo1 from "../Images/headericon/Logo-aa.svg";
+import Logo1 from "../Images/headericon/Logo-f.svg";
 import Logo2 from "../Images/headericon/Logo-b.svg";
 import Logo3 from "../Images/headericon/Logo-c.svg";
 import Logo4 from "../Images/headericon/Logo-d.svg";
