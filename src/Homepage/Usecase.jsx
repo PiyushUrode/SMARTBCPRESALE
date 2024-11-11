@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import usecase1 from "../Images/usecase/img1.svg";
-import usecase2 from "../Images/usecase/img2.svg";
-import usecase3 from "../Images/usecase/usecase4.png";
-import usecase4 from "../Images/usecase/img4.svg";
-import usecase5 from "../Images/usecase/img5.svg";
-import usecase6 from "../Images/usecase/img6.svg";
+import usecase1 from "../Images/smartbcnewimg/1.webp";
+import usecase2 from "../Images/smartbcnewimg/2.webp";
+import usecase3 from "../Images/smartbcnewimg/3.webp";
+import usecase4 from "../Images/smartbcnewimg/4.webp";
+import usecase5 from "../Images/smartbcnewimg/5.webp";
+import usecase6 from "../Images/smartbcnewimg/6.webp";
 
 const Usecase = () => {
   return (

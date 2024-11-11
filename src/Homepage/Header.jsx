@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
+import { Helmet } from 'react-helmet';
 import "aos/dist/aos.css";
 import Marquee from '../Marquee/Marquee';
 import arrow1 from "../Images/arrow.svg";
@@ -11,6 +12,16 @@ const Header = () => {
 
   return (
     <div className='flex flex-row relative tablet:flex-col justify-center h-[95vh] ' id='home'>
+      {/* start  */}
+       <Helmet>
+        <title> Smart BC Token</title>
+        <meta name="description" content="Smart BC Token is revolutionizing digital transactions through blockchain technology. Learn about its secure, efficient, and transparent platform." />
+        <meta property="og:title" content="Experience Blockchain Technology | Smart BC Token" />
+        <meta property="og:description" content="Smart BC Token is revolutionizing digital transactions through blockchain technology. Learn about its secure, efficient, and transparent platform." />
+        <meta property="og:image" content="URL_to_image_or_logo" />
+        <link rel="canonical" href="https://www.example.com" />
+      </Helmet>
+      {/*  end */}
       <div 
         className='flex flex-col w-full justify-center align-middle phone:w-full gap-10 phone:gap-2 phone:px-1 px-5' 
         data-aos="fade-up" 
@@ -18,14 +29,14 @@ const Header = () => {
       >
         <div className='flex flex-col gap-4 w-full justify-center align-middle text-center'>
           <h1 
-            className='text-h1 tablet:text-h4  ibold -tracking-normal w-[100%] leading-tight tablet:align-middle'
+            className='text-h2 tablet:text-h4  ibold -tracking-normal w-[100%] leading-tight tablet:align-middle'
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Experience the Power   <span className='text-gradient'> of Blockchain Technology </span>
+            Experience The Power   <span className='text-gradient'> oF Blockchain Technology </span>
           </h1>
           <h1 
-            className='text-h1 tablet:text-h4     ibold -tracking-normal w-[100%] leading-tight tablet:align-middle'
+            className='text-h2 tablet:text-h4     ibold -tracking-normal w-[100%] leading-tight tablet:align-middle'
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -38,7 +49,7 @@ const Header = () => {
           data-aos="fade-up"
           data-aos-delay="400"
         >
-          <p className='w-[50%] tablet:w-[80%]  phone:text-p phone:w-[100vw] phone:px-1 px-5 py-2 phone:py-1'>
+          <p className='w-[50%] tablet:w-[80%]  phone:text-p phone:w-[100vw] phone:px-1 px-5 py-2 phone:py-1  phone:line-clamp-3'>
           Smart BC Token opens the door to secure, efficient, and transparent digital transactions. Designed as a blockchain-based asset, it’s reshaping the use and trust of digital currencies across industries, offering a reliable platform that supports the needs of businesses and individual investors alike.
           </p>
         </div>

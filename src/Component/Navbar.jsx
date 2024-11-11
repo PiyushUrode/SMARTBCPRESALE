@@ -53,7 +53,7 @@ const Navbar = () => {
                     <div className="flex  md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         
                     <div className='flex gap-3 phone:gap-1 items-center'>
-  <a 
+  {/* <a 
     target="_blank" 
     href="https://smartbcconceepts-organization.gitbook.io/smart-bc-token/" 
     className='rbtn h-fit rounded-full'
@@ -61,11 +61,20 @@ const Navbar = () => {
     <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2 phone:text-sm hover:bg-[#8AFADE] md:hover:bg-[#8AFADE] hover:text-black transition-colors duration-300">
       Whitepaper
     </span>
-  </a>
-  {/* <a target="blank" href="https://smartbcconcept.net/" className='rbtn h-fit rounded-full'>
-    <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2 phone:text-sm ">Sign Up</span>
   </a> */}
+  <a target="blank" href="https://smartbcconcept.net/MemberPanel/Login.aspx" className='rbtn h-fit rounded-full'>
+    <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2 phone:text-sm ">Sign In</span>
+  </a>
+
+  <a target="blank" href="https://smartbcconcept.net/" className='rbtn h-fit rounded-full'>
+    <span className="text rounded-full px-5 py-2 phone:py-1 phone:px-2 phone:text-sm ">Sign Up</span>
+  </a>
+
+  
 </div>
+{/* new singup signin */}
+
+{/* new singup signin */}
 
 
                         <button
@@ -135,6 +144,20 @@ const Navbar = () => {
                                     <div className=" font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit ">Roadmap</div>
                                 </Link>
                             </li>
+                            <li className='md:border-none border-b-[1px] border-gradient '>
+                            <a 
+    target="_blank" 
+    href="https://smartbcconceepts-organization.gitbook.io/smart-bc-token/" 
+    className='rbtn h-fit rounded-full'
+  >
+    <span className="font-normal block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#8AFADE] font-outfit">
+      Whitepaper
+    </span>
+  </a>
+                            </li>
+
+
+
 
 
 

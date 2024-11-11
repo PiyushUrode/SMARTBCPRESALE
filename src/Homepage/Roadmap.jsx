@@ -2,9 +2,13 @@ import React, { useEffect } from 'react';
 import "../App.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import str1img from "../Images/strategic/coincap.webp"
+import str2img from "../Images/strategic/mask.webp"
+import str3img from "../Images/strategic/panckae.webp"
+import str4img from "../Images/strategic/twe.webp"
 
 import arrowleft from "../Images/usecase/arrow1.svg"
-import arrowright from "../Images/usecase/arrow2.svg"
+// import arrowright from "../Images/usecase/arrow2.svg"
 
 
 const Roadmap = () => {
@@ -40,7 +44,7 @@ const Roadmap = () => {
             <section id="roadmap">
                 <div
                     id="about-main"
-                    className="bg-[url('/bgimgblackwave.svg')] bg-opacity-[0.8] relative flex gap-16 flex-col min-h-[100vh] px-10 py-10 tablet:px-3 2xl:py-[3vw] 2xl:px-[3vw] 2xl:gap-[4vw]"
+                    className=" relative flex gap-16 flex-col min-h-[100vh] px-10 py-10 tablet:px-3 2xl:py-[3vw] 2xl:px-[3vw] 2xl:gap-[4vw]"
                 >
                     <div>
                         <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid 2xl:p-[1vw]">
@@ -370,6 +374,22 @@ Engage with the developer community to foster innovation and integration.
                     </div>
                 </div>
             </section>
+
+
+            <div className="flex flex-col items-center text-center py-5 px-2 md:px-20">
+  <div className="text-3xl md:text-5xl font-bold tracking-normal w-full mb-6">
+    <h1>Strategic Partners</h1>
+  </div>
+  <div className="flex justify-between align-middle phone:justify-center phone:gap-1  flex-wrap items-center gap-4 w-full overflow-x-auto px-24 tablet:px-12 phone:gap-5 phone:px-0 " id="img-section">
+    <img src={str1img} alt="Strategic Partner 1" className="h-20 w-20 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-52 lg:w-52 object-contain" />
+    <img src={str2img} alt="Strategic Partner 2" className="h-20 w-20 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-52 lg:w-52 object-contain" />
+    <img src={str3img} alt="Strategic Partner 3" className="h-20 w-20 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-52 lg:w-52 object-contain" />
+    <img src={str4img} alt="Strategic Partner 4" className="h-20 w-20 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-52 lg:w-52 object-contain" />
+  </div>
+</div>
+
+
+
 
 
 

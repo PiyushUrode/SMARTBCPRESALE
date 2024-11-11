@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import LazyLoad from 'react-lazyload';
 import aboutimg1 from "../Images/aboutimg.png";
 import arrow1 from "../Images/arrow.svg";
+import { Helmet } from 'react-helmet'; 
 
 const About = () => {
   useEffect(() => {
@@ -11,13 +13,31 @@ const About = () => {
 
   return (
     <div className='flex flex-col md:flex-row justify-center align-middle min-h-[90vh] py-4 px-20 tablet:py-10 tablet:px-2' id='about'>
+
+      {/* start */}
+       <Helmet>
+        <title> Smart BC Token  </title>
+        <meta name="description" content="Learn about Smart BC Token (SBC) - a BEP-20 token designed to transform the blockchain ecosystem with staking, e-commerce, NFTs, and a crypto exchange." />
+        <meta property="og:title" content="About Smart BC Token | Revolutionizing Blockchain Technology" />
+        <meta property="og:description" content="Learn about Smart BC Token (SBC) - a BEP-20 token designed to transform the blockchain ecosystem with staking, e-commerce, NFTs, and a crypto exchange." />
+        <meta property="og:image" content="URL_to_image_or_logo" />
+        <link rel="canonical" href="https://www.example.com/about" />
+      </Helmet>
+
+      {/* end */}
       {/* Image Section */}
       <div 
         className='flex justify-center w-full md:w-1/2 px-4 md:px-8' 
         data-aos="fade-right" 
         data-aos-delay="200"
       >
-        <img src={aboutimg1} alt="About Image" className='w-full max-w-2xl h-auto' />
+        <LazyLoad height={300} offset={100} once>
+          <img 
+            src={aboutimg1} 
+            alt="About Image" 
+            className='w-full max-w-2xl h-auto'
+          />
+        </LazyLoad>
       </div>
 
       {/* Text Content Section */}
@@ -53,9 +73,6 @@ const About = () => {
         >
           We envision a future where blockchain technology simplifies everyday transactions, promoting security and efficiency. Join us as we drive innovation and create a vibrant community for digital finance.
         </p>
-
-
- 
       </div>
     </div>
   );
